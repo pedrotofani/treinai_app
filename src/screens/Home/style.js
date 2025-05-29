@@ -11,12 +11,16 @@ export const Wrapper = styled.View`
 export const Container = styled.View`
   flex: 1;
   padding: 16px;
-  justify-content: center;
-  align-items: center;
+align-items: center;
   position: relative;
 `;
 
 export const Title = styled.Text`
   font-size: 24px;
   color: #e53935;
+`;
+
+export const ContainerButton = styled.View`
+  flex: 1;
+  flex-direction: row;
 `;
