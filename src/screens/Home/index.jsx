@@ -18,7 +18,7 @@ const navigation = useNavigation();
       <Header username="Pedro" />      
       <Container>
         <ContainerButton>
-            <ActionButton
+          <ActionButton
             iconName="plus-circle"
             text="Adicionar Treino"
             onPress={() => navigation.navigate('AdicionarTreino')}
@@ -26,7 +26,7 @@ const navigation = useNavigation();
           <ActionButton
             iconName="calendar"
             text="Ver Calendário"
-            onPress={() => console.log('Ver calendário')}
+            onPress={() => navigation.navigate('Calendario')}
           />
         </ContainerButton>
                
